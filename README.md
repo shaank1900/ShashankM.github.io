@@ -1,4 +1,4 @@
-# Shashank Misras Personal Webpage
+# Shashank Misra: My Personal Webpage
 
 ## This repository contains everything I used to build my personal website, Specifically:
 1. The static HTML files I used for my website pages
