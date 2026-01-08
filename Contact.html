@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — Shashank Misra</title>
+
+  <!-- Shared site CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+
+  <!-- Contact-page-only styles -->
+  <style>
+    .contact-wrap {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 56px 24px 40px;
+    }
+
+    .contact-title {
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-size: 36px;
+      color: var(--accent);
+      margin-bottom: 24px;
+    }
+
+    /* Icon links (email + LinkedIn) */
+    .contact-icons {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin-bottom: 32px;
+    }
+
+    .contact-icons a {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 18px;
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .contact-icons a i {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: var(--accent);
+      color: #ffffff;
+      display: grid;
+      place-items: center;
+      font-size: 16px;
+    }
+
+    .contact-icons a:hover {
+      text-decoration: underline;
+    }
+
+    .contact-item {
+      font-size: 18px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .contact-item strong {
+      color: var(--text);
+    }
+
+    @media (max-width: 800px) {
+      .contact-wrap {
+        padding: 40px 18px;
+      }
+
+      .contact-title {
+        font-size: 30px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Top navigation -->
+  <div class="topbar">
+    <div class="site-name">Shashank Misra</div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="cv.html">CV</a>
+      <a href="about.html">About Me</a>
+      <a class="active" href="contact.html">Contact</a>
+    </nav>
+  </div>
+
+  <!-- Contact content -->
+  <main class="contact-wrap">
+    <h1 class="contact-title">Contact</h1>
+
+    <!-- Email + LinkedIn icons -->
+    <div class="contact-icons">
+      <a href="mailto:s.misra@tilburguniversity.edu" title="Email">
+        <i class="fa-solid fa-envelope"></i>
+        <span>s.misra@tilburguniversity.edu</span>
+      </a>
+
+      <a href="https://www.linkedin.com/in/shashank-mis/" target="_blank" title="LinkedIn">
+        <i class="fa-brands fa-linkedin-in"></i>
+        <span>LinkedIn</span>
+      </a>
+    </div>
+
+    <!-- Visiting address -->
+    <p class="contact-item">
+      <strong>Visiting address:</strong><br>
+      Room K554, Koopmans Building,<br>
+      Warandelaan 2,<br>
+      Tilburg, 5037AB
+    </p>
+  </main>
+
+
+</body>
+</html>
